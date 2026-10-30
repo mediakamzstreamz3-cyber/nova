@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nova",
+  "version": "1.0.0",
+  "name": "Nova Client",
+  "description": "My own client.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.nova.NovaClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
